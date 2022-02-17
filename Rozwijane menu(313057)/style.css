@@ -1,0 +1,123 @@
+.menu
+{
+    margin: 5px;
+    padding: 5px;
+    width: 10%;
+    height: 100%;
+    background-color: darkblue;
+}
+
+.menu a
+{
+    color: aliceblue;
+}
+
+.drop1,
+.drop2,
+.drop3
+{
+    position: relative;
+}
+
+.drop1 ul
+{
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    margin-left: 10px;
+    background-color: darkslateblue;
+    padding: 0;
+    list-style-type: none;
+    display: none;
+
+}
+
+.drop2 ul
+{
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    margin-left: 10px;
+    background-color: darkslateblue;
+    padding: 0;
+    list-style-type: none;
+    display: none;
+}
+
+.drop3 ul
+{
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    margin-left: 10px;
+    background-color: darkslateblue;
+    border-left: 21px;
+    padding: 0;
+    list-style-type: none;
+    display: none;
+}
+
+.drop1 ul li  
+{ 
+    padding: 5px;
+}
+
+.drop2 ul li  
+{ 
+    padding: 5px;
+}
+
+.drop3 ul li  
+{ 
+    padding: 5px;
+}
+
+.drop1 ul li:hover  
+{ 
+    background: slateblue;
+}
+
+.drop2 ul li:hover  
+{ 
+    background: slateblue;
+}
+
+.drop3 ul li:hover  
+{ 
+    background: slateblue;
+}
+
+.drop1 ul li a 
+{ 
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.drop2 ul li  a
+{ 
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.drop3 ul li  a
+{ 
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.drop1 a:focus + ul,
+.drop2 a:focus + ul,
+.drop3 a:focus + ul
+{
+    display: block;
+}
+

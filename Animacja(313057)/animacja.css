@@ -1,0 +1,53 @@
+@keyframes bounce{
+    0% { 
+        transform: translateY(0);
+    }
+    30% { 
+        transform: translateY(500px);
+    }
+    45% { 
+        transform: translateY(250px);
+    }
+    60% { 
+        transform: translateY(500px);
+    }
+    70% {
+        transform: translateY(360px);
+    }
+    78% {
+        transform: translateY(500px);
+    }
+    85% { 
+        transform: translateY(420px);
+    }
+    92% {
+        transform: translateY(500px);
+    }
+    97% { 
+        transform: translateY(480px);
+    }
+    100% { 
+        transform: translateY(500px);
+    }
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    height: 700px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both ;
+}
