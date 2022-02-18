@@ -1,0 +1,37 @@
+html
+{
+    background-color: white;
+}
+
+body
+{
+    padding: 10px 30px 10px 30px;
+    margin: 3% 10% 3% 10%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 100%;
+}
+
+span
+{
+    color: gray;
+}
+
+img
+{
+    height: 200px;
+    width: 150px;
+}
+
+header
+{
+    padding: 10px 60px 10px 60px;
+    margin: 0 auto;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
