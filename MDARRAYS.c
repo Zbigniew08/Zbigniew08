@@ -50,9 +50,9 @@ int main()
     {
         for( j = 0; j < X; j++)
         {
-            printf("%c   ", sierpinski[i][j]);
+            printf("%c ", sierpinski[i][j]);
         }
-        printf("\n\n\n");
+        printf("\n\n");
     }
     
   return 0;
