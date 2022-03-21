@@ -1,14 +1,18 @@
+//dyrektywy preprocesora
 #include <stdio.h>
 
 #define T 32
 #define X 65
 
+//funkcja główna
 int main()
 {
+    //deklaracja tablicy i przypisanie wartości dla pierwszego wiersza
     char sierpinski[T][X] = {[0][32] = '#'};
 
     int q, w;
     
+    //przypisanie wartości elementom tablicy
     for( q = 1; q < T; q++)
     {
         for( w = 0; w < X; w++)
@@ -45,6 +49,7 @@ int main()
         }
     }
     
+    //drukowanie tablicy
     int j, i;
     for( i = 0; i < T; i++)
     {
