@@ -6,10 +6,12 @@
 int main()
 {
     char sierpinski[T][X] = {[0][32] = '#'};
+
+    int q, w;
     
-    for( int q = 1; q < T; q++)
+    for( q = 1; q < T; q++)
     {
-        for( int w = 0; w < X; w++)
+        for( w = 0; w < X; w++)
         {
             if( sierpinski[q-1][w] == '#' )
             {
@@ -36,18 +38,22 @@ int main()
                     }
                     else
                     {
-                        
+                        sierpinski[q][w] = ' ';
                     }
                 }
             }
         }
     }
     
-    //int j, i=0;
-    //for( j = 0; j < X; j++)
-    //{
-    //    printf("%c\t", sierpinski[i][j]);
-    //}
+    int j, i;
+    for( i = 0; i < T; i++)
+    {
+        for( j = 0; j < X; j++)
+        {
+            printf("%c   ", sierpinski[i][j]);
+        }
+        printf("\n\n\n");
+    }
     
   return 0;
 }
